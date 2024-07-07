@@ -1,0 +1,339 @@
+[
+  {
+    "Coin": "4054852d4e555ba974b32eba16c71da27a1fe7de8732abd76d36333153813e12",
+    "Coin_puzzle_hash": "180ee92e94d3b5dab7d3331550fb45206b7014379db432ad82c30c77a323df16",
+    "Type": "token",
+    "Tags": ["cat_v2"],
+    "Spend": true,
+    "Conditions": [
+      {
+        "opcode": "ASSERT_MY_COIN_ID",
+        "vars": [
+          "4054852d4e555ba974b32eba16c71da27a1fe7de8732abd76d36333153813e12"
+        ]
+      },
+      {
+        "opcode": "CREATE_COIN_ANNOUNCEMENT",
+        "vars": [
+          "cb65766630083611602591c90f29a9342980028d8db2a26d11177a480f3d861124"
+        ]
+      },
+      {
+        "opcode": "ASSERT_COIN_ANNOUNCEMENT",
+        "vars": [
+          "3b8a0ee9658632ea293a16147259c1ec134a0d37b349a508d7b3b771999ceb4b"
+        ]
+      },
+      {
+        "opcode": "AGG_SIG_ME",
+        "vars": [
+          "96fd50fb2c111242cc48aa8de72c65677289e71fa0e534d76fba8f6a427d9c72dd97ccb635d282dddd9711a5eeb46183",
+          "d33449cda567e69a494b93c61aa3f4ca136ce5fce111355f8bc9cc557c2bd153"
+        ]
+      },
+      {
+        "opcode": "ASSERT_COIN_ANNOUNCEMENT",
+        "vars": [
+          "735f7e39242d8503f4e8126041d61940a2f28e1afb9e503acd7b4f989cece1e5"
+        ]
+      }
+    ],
+    "Children": []
+  },
+  {
+    "Coin": "ceae7beb8d75496a0cb2561692c0a13690637dba0fcfc8c576decabd89860a5f",
+    "Coin_puzzle_hash": "b7a5cd032729004bdd71f72f095d8dfe144e2d638be20741e7e5c5a9e1b13157",
+    "Type": "token",
+    "Tags": ["cat_v2"],
+    "Spend": true,
+    "Conditions": [
+      {
+        "opcode": "ASSERT_MY_COIN_ID",
+        "vars": [
+          "ceae7beb8d75496a0cb2561692c0a13690637dba0fcfc8c576decabd89860a5f"
+        ]
+      },
+      {
+        "opcode": "CREATE_COIN_ANNOUNCEMENT",
+        "vars": [
+          "cbe605e64cf0913ff825d2624d934539f2366ab906430f0ade09ce41726bcd2ea2"
+        ]
+      },
+      {
+        "opcode": "ASSERT_COIN_ANNOUNCEMENT",
+        "vars": [
+          "2e39b6470fa285b3db54ad705ef4da81a9a4da90b07d0547567c1fa80833ca4f"
+        ]
+      },
+      {
+        "opcode": "AGG_SIG_ME",
+        "vars": [
+          "add5295f468f700a2986d4ed8efeaab91a00b036d70b48e503655c835ecd412c7978246c4da93ec7f86cca96445d6150",
+          "52be8e4c5e0c90763b27b7300ac0359fbab62258c25f49a56643f3b2e0364ddb"
+        ]
+      },
+      {
+        "opcode": "ASSERT_PUZZLE_ANNOUNCEMENT",
+        "vars": [
+          "063e5d5144bea22e1e5de4c9f5ec91bf54833f40208dcaabbb17cf6d59a388b6"
+        ]
+      },
+      {
+        "opcode": "CREATE_COIN_ANNOUNCEMENT",
+        "vars": [
+          "bd6548e6b9916598e1c0c4080cbf9e91f4a863a4ec47dcd15f339fa22d696bcb"
+        ]
+      },
+      {
+        "opcode": "CREATE_COIN",
+        "child_coin_name": "10bfc1a8dae4494a4be31424b927cc1a2b1ecd0ad26dde78da67e4f3128fff3e",
+        "send_address": "xch1tl7kzjr42ndy4nde5vhxvdz0tr44pax8s09z47wduplm02t7gneslty5kq",
+        "send_puzzle": "5ffd61487554da4acdb9a32e66344f58eb50f4c783ca2af9cde07fb7a97e44f3",
+        "amt": 1444000
+      },
+      {
+        "opcode": "CREATE_COIN",
+        "child_coin_name": "d45893b0a5ff920befa0e2915f2d2766da0b3f52ced8e6cde7196a7afe8922ee",
+        "send_address": "xch1r5rq05xnxm3famqpayr5g2uwkm8992df3c05pmzfyjf288dajans6txe5y",
+        "send_puzzle": "1d0607d0d336e29eec01e907442b8eb6ce52a9a98e1f40ec492492a39dbd9767",
+        "amt": 230000
+      }
+    ],
+    "Children": [
+      {
+        "Coin": "d45893b0a5ff920befa0e2915f2d2766da0b3f52ced8e6cde7196a7afe8922ee",
+        "Coin_puzzle_hash": null,
+        "Type": "token",
+        "Tags": null,
+        "Spend": false,
+        "Conditions": [],
+        "Children": []
+      },
+      {
+        "Coin": "10bfc1a8dae4494a4be31424b927cc1a2b1ecd0ad26dde78da67e4f3128fff3e",
+        "Coin_puzzle_hash": "5ffd61487554da4acdb9a32e66344f58eb50f4c783ca2af9cde07fb7a97e44f3",
+        "Type": "token",
+        "Tags": ["cat_v2"],
+        "Spend": true,
+        "Conditions": [
+          {
+            "opcode": "ASSERT_MY_COIN_ID",
+            "vars": [
+              "10bfc1a8dae4494a4be31424b927cc1a2b1ecd0ad26dde78da67e4f3128fff3e"
+            ]
+          },
+          {
+            "opcode": "CREATE_COIN_ANNOUNCEMENT",
+            "vars": [
+              "cb49a27ae0a50553ee6587dc0a6d54245572cdb480fb4d97ce6a878bf9a8fcc4ee"
+            ]
+          },
+          {
+            "opcode": "ASSERT_COIN_ANNOUNCEMENT",
+            "vars": [
+              "1037f317b1bd1c7a3b83245d35d3f6a7fd3917a0b7402fe738bc6f14cad63c41"
+            ]
+          },
+          {
+            "opcode": "CREATE_PUZZLE_ANNOUNCEMENT",
+            "vars": [
+              "3d8a726f4557b7192f1ebac73479e9705e714dc8207b72043936660fa10f0d71"
+            ]
+          },
+          {
+            "opcode": "CREATE_COIN",
+            "child_coin_name": "008a5131a2b521b6c76bc271e50918ce7a746a0aa26548030b088484c8e2a76c",
+            "send_address": "xch1s6rg23lh5qddgtv9xlsm0d9cls7yypzwa9kkqxu2wrv97ryyvgysh9ec99",
+            "send_puzzle": "86868547f7a01ad42d8537e1b7b4b8fc3c42044ee96d601b8a70d85f0c846209",
+            "amt": 1444000
+          }
+        ],
+        "Children": [
+          {
+            "Coin": "008a5131a2b521b6c76bc271e50918ce7a746a0aa26548030b088484c8e2a76c",
+            "Coin_puzzle_hash": null,
+            "Type": "token",
+            "Tags": null,
+            "Spend": false,
+            "Conditions": [],
+            "Children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Coin": "889f4e76d48a26c8c363ba0a4ed477810ddc45a1ef52e30c17f96e2085ab1029",
+    "Coin_puzzle_hash": null,
+    "Type": "standard",
+    "Tags": null,
+    "Spend": false,
+    "Conditions": [],
+    "Children": []
+  },
+  {
+    "Coin": "0c09b0c48243850aa8e5c70806f076db5be2679fa10ac73fde88cef750b3a59c",
+    "Coin_puzzle_hash": null,
+    "Type": "standard",
+    "Tags": null,
+    "Spend": false,
+    "Conditions": [],
+    "Children": []
+  },
+  {
+    "Coin": "8df3bcf70bedae20d43a90b2964157cf736e99af3b84f5de5729e9a48cc3c055",
+    "Coin_puzzle_hash": null,
+    "Type": "standard",
+    "Tags": null,
+    "Spend": false,
+    "Conditions": [],
+    "Children": []
+  },
+  {
+    "Coin": "0dc1a97564834f29c72b7bbe5401ae684c6171a5ae672f22b7e0f8575e105dfd",
+    "Coin_puzzle_hash": null,
+    "Type": "standard",
+    "Tags": null,
+    "Spend": false,
+    "Conditions": [],
+    "Children": []
+  },
+  {
+    "Coin": "4c1cedd2b09ee119543f7ea47e3c4f908eaecd1887ee507e288edb285852b883",
+    "Coin_puzzle_hash": null,
+    "Type": "standard",
+    "Tags": null,
+    "Spend": false,
+    "Conditions": [],
+    "Children": []
+  },
+  {
+    "Coin": "ce84a77de0856c83c2726e6f8654d28dec5bae95dcd216808d846a324a575b32",
+    "Coin_puzzle_hash": null,
+    "Type": "standard",
+    "Tags": null,
+    "Spend": false,
+    "Conditions": [],
+    "Children": []
+  },
+  {
+    "Coin": "7966aabc780b5291a0cfa203dcc210b4a614b977ede77ee0ab4a38987bc64687",
+    "Coin_puzzle_hash": "2fe0c9d47e615fc15090913a9aceed9a71def688fbb0b9c4b9d35c127a526420",
+    "Type": "standard",
+    "Tags": ["p2_delegated_puzzle_or_hidden_puzzle"],
+    "Spend": true,
+    "Conditions": [
+      {
+        "opcode": "AGG_SIG_ME",
+        "vars": [
+          "ace9b857fd6df69f2e1bbc589d4f4a2039dc83f7827a475ef5cb604940ba83181ad965ffd4bbc8cd1256c714655bfe1b",
+          "770b41bff6f6fc38d1ddfd194942241266d7dc240942157d046cf23e5dddca1c"
+        ]
+      },
+      {
+        "opcode": "ASSERT_COIN_ANNOUNCEMENT",
+        "vars": [
+          "735f7e39242d8503f4e8126041d61940a2f28e1afb9e503acd7b4f989cece1e5"
+        ]
+      },
+      {
+        "opcode": "CREATE_COIN_ANNOUNCEMENT",
+        "vars": [
+          "ae256680225d42042e164a511640e000139262c7426ee9a5f15b390bd27e8809"
+        ]
+      },
+      {
+        "opcode": "CREATE_COIN",
+        "child_coin_name": "74e1f78eb519b090ca68b0577ad0846da8545dff3ee03758feff994fc3adcac8",
+        "send_address": "xch1wawje37pz6tpw8keem7hdd6skpwquha4s6qcnn29v65avnhdhxlspzf6t4",
+        "send_puzzle": "775d2cc7c11696171ed9cefd76b750b05c0e5fb5868189cd4566a9d64eedb9bf",
+        "amt": 88990000
+      },
+      {
+        "opcode": "RESERVE_FEE",
+        "vars": ["4c4b40"]
+      }
+    ],
+    "Children": [
+      {
+        "Coin": "74e1f78eb519b090ca68b0577ad0846da8545dff3ee03758feff994fc3adcac8",
+        "Coin_puzzle_hash": null,
+        "Type": "standard",
+        "Tags": null,
+        "Spend": false,
+        "Conditions": [],
+        "Children": []
+      }
+    ]
+  },
+  {
+    "Coin": "adfa652750473262bca81f026ddd484144148533ac4b2ca23bacbd3b72340444",
+    "Coin_puzzle_hash": "80f9ba67e2c4e0e886010958602a2fc9e9f7b74e8874eb3319a10d9610c401d9",
+    "Type": "standard",
+    "Tags": ["p2_delegated_puzzle_or_hidden_puzzle"],
+    "Spend": true,
+    "Conditions": [
+      {
+        "opcode": "AGG_SIG_ME",
+        "vars": [
+          "b3f4d676c20d0741bf1ad39129a58ec407b96d0938fafff6df7f7cc8fb323a2bb3fd58db51f2892ea4ade7a3b52e44e7",
+          "95e85a8c712b540dfa7b514cb2e854236e4f1087ccd34a1838a67e8c15fefc47"
+        ]
+      },
+      {
+        "opcode": "ASSERT_PUZZLE_ANNOUNCEMENT",
+        "vars": [
+          "d8f110e555d5dd57ab0cf69f55a7bdc2353ed95135f05456911f388868d2d4be"
+        ]
+      },
+      {
+        "opcode": "CREATE_COIN_ANNOUNCEMENT",
+        "vars": [
+          "2783bc5f8ae0a7c258c6ef9f6279c93eec5c25eb967ef8364839d490f56f7c28"
+        ]
+      },
+      {
+        "opcode": "CREATE_COIN",
+        "child_coin_name": "c14d611ee7990c4dcbe9650555f62fb0912670fe78981f7d3028f0e82d5d0f16",
+        "send_address": "xch1e7laam2ufj3du0gt75stnj6tka6r5dvm6tn2rzx3nnnallpp60ns44afhc",
+        "send_puzzle": "cfbfdeed5c4ca2de3d0bf520b9cb4bb7743a359bd2e6a188d19ce7dffc21d3e7",
+        "amt": 1070000000000
+      }
+    ],
+    "Children": [
+      {
+        "Coin": "c14d611ee7990c4dcbe9650555f62fb0912670fe78981f7d3028f0e82d5d0f16",
+        "Coin_puzzle_hash": "cfbfdeed5c4ca2de3d0bf520b9cb4bb7743a359bd2e6a188d19ce7dffc21d3e7",
+        "Type": "standard",
+        "Tags": ["settlement_payments", "OFFER_SETTLEMENT"],
+        "Spend": true,
+        "Conditions": [
+          {
+            "opcode": "CREATE_PUZZLE_ANNOUNCEMENT",
+            "vars": [
+              "4c79200f9a74ff80a140685a10af37ebd273b335ea53e98c980b822501ed3a5a"
+            ]
+          },
+          {
+            "opcode": "CREATE_COIN",
+            "child_coin_name": "97f0ff56fc69ae19662ac4dc093d2928de7f66f419d32f7533ad2d2d4e42e0fd",
+            "send_address": "xch17acflpn9ahjc58062knz35prpkhtq0gg6fxn6ghzv76jpfggvh0sk2mpj0",
+            "send_puzzle": "f7709f8665ede58a1dfa55a628d0230daeb03d08d24d3d22e267b520a50865df",
+            "amt": 1070000000000
+          }
+        ],
+        "Children": [
+          {
+            "Coin": "97f0ff56fc69ae19662ac4dc093d2928de7f66f419d32f7533ad2d2d4e42e0fd",
+            "Coin_puzzle_hash": null,
+            "Type": "standard",
+            "Tags": null,
+            "Spend": false,
+            "Conditions": [],
+            "Children": []
+          }
+        ]
+      }
+    ]
+  }
+]
